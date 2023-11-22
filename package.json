@@ -1,0 +1,25 @@
+{
+  "dependencies": {
+    "axios": "^1.6.2"
+  },
+  "name": "movies-app",
+  "description": "This is a Movie App Project with star and genre filter",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aksingh-77/Movies_App.git"
+  },
+  "keywords": [
+    "movies"
+  ],
+  "author": "Abhishek Singh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aksingh-77/Movies_App/issues"
+  },
+  "homepage": "https://github.com/aksingh-77/Movies_App#readme"
+}

@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons+Outlined');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    ---bg-color: #191919;
+    ---card-bg: #064663;
+    ---text-color-primary: #fafafa;
+
+}
+
+body{
+    background: var(---bg-color);
+    font-family: "Montsrrat", "sans-serif";
+}
+
+.header{
+    padding: 1.5rem;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    position: fixed;
+    width: 100vw;
+    background-color: var(---bg-color);
+}
+
+.options{
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    gap: 10px;
+}
+
+.search-container{
+    margin-left: auto;
+}
+
+.heading-1{
+    font-size: 3rem;
+    color: var(---text-color-primary);
+    padding-left: 2rem;
+    
+}
+
+.input{
+    background-color: transparent;
+    border: 2px solid var(---card-bg);
+    border-radius: 4px;
+    padding: 8px;
+    color: var(---text-color-primary);
+    font-size: 1.25rem;
+    width: 25rem;
+}
+
+.rating-select{
+    background-color: transparent;
+    border: 2px solid var(---card-bg);
+    border-radius: 4px;
+    padding: 8px;
+    color: var(---text-color-primary);
+    font-size: 1.25rem;
+    width: 10rem;
+    gap: 1rem;
+}
+
+.option{
+    background-color: var(---bg-color);
+}
+
+.main{
+    display: flex;
+    gap: 3rem;
+    flex-wrap: wrap;
+    padding: 8rem 3rem 3rem 4rem;
+}
+
+.card{
+    width: 14rem;
+    border-radius: 4px;
+    background-color: var(---card-bg);
+}
+
+.card:hover{
+    scale: 1.1;
+    transition: scale 0.5s;
+}
+
+.card-image-container{
+    width: 100%;
+    height: 1rem;
+}
+
+.card-image{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    position: center;
+}
+
+.movies-details{
+    margin: 10px 0;
+    color: var(---text-color-primary);
+    padding: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.title{
+    font-size: 1.1rem;
+}
+
+.genre{
+    font-size: 0.875rem;
+}
+
+.ratings{
+     display: flex;
+     justify-content: space-between;
+}
+
+.star-rating{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}

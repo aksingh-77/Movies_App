@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatiable" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Abhsihek Singh">
+    <meta name="description" content="Top 250 IMDB Movies list with search, rating, and genere filter">
+    <link rel="stylesheet" href="style.css">
+    <title>Movie App</title>
+</head>
+<body>
+    <header class="header">
+        <h1 class="heading-1">Movie App</h1>
+        <div class="options">
+            <div class="search-container">
+                <input type="text" class="input" placeholder="Search a Movie | Director | Actor">
+            </div>
+    
+            <div>
+                <select name="" class="rating-select" id="rating-select">
+                    <option class="option"  value="None" selected disabled>Rating</option>
+                    <option class="option"  value="7">7 & Above</option>
+                    <option  class="option" value="8">8 & Above</option>
+                    <option  class="option" value="8.5">8.5 & Above</option>
+                    <option  class="option" value="9">9 & Above</option>
+                </select>
+            </div>
+
+            <div>
+                <select name="" class="rating-select" id="genre-select">
+                    <option class="option" value="" selected disabled>Genre</option>
+                </select>
+
+            </div>
+        </div>
+        
+    </header>
+
+    <main class="main">
+        <!-- <div class="card shadow">
+            <div class="card-image-container">
+                <img src="https://m.media-amazon.com/images/M/MV5BM2MyNjYxNmUtYTAwNi00MTYxLWJmNWYtYzZlODY3ZTk3OTFlXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_.jpg" alt="movie poster" class="card-image">
+            </div>
+
+            <div class="movies-details">
+                <p class="title">The GodFather</p>
+                <p class="genre">Genre: Action, Drama</p>
+                <div class="ratings">
+                    <div class="star-rating">
+                        <span class="material-icons-outlined">star</span>
+                        <span>8.7</span>
+                    </div>
+                    <p>137 mins</p>
+                </div>
+            </div>
+        </div> -->
+    </main>
+
+    <script type="module" src="index.js"></script>
+    <script src="https://unpkg.com/axios@1.1.2/dist/axios.min.js"></script>
+    
+</body>
+</html>
